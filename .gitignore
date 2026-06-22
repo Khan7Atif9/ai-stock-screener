@@ -1,0 +1,23 @@
+# Virtual environment
+venv/
+env/
+
+# Cache files
+data/cache/
+__pycache__/
+*.pyc
+*.pyo
+
+# Model files (too large for GitHub)
+models/saved/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+secrets.toml
