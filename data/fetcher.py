@@ -11,7 +11,7 @@ CACHE_DIR = "data/cache"
 os.makedirs(CACHE_DIR, exist_ok=True)
 
 # ── Fix yfinance headers for cloud ────────────────────────────
-yf.utils.get_json = yf.utils.get_json
+#yf.utils.get_json = yf.utils.get_json
 
 HEADERS = {
     "User-Agent": (
