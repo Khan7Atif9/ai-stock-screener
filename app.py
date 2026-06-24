@@ -281,12 +281,20 @@ def render_screener(ticker: str, period: str):
     st.divider()
 
     # Load data
-    with st.spinner(f"Fetching data for {ticker}..."):
+    with st.spinner(f"Fetching data for {ticker}... (may take 10-15s on cloud)"):
         df   = get_ohlcv(ticker, period)
         fund = get_fundamentals(ticker)
 
     if df.empty:
-        st.error(f"Could not fetch data for {ticker}")
+        st.warning(
+            f"⚠️ Could not fetch data for **{ticker}**. "
+            "This sometimes happens due to rate limiting. "
+            "Please try again in 30 seconds or select a different stock."
+        )
+        st.info(
+            "💡 Tip: Large cap stocks like TCS.NS, RELIANCE.NS, "
+            "HDFCBANK.NS usually work best on cloud."
+        )
         return
 
     # ── Chart ─────────────────────────────────────────────────
