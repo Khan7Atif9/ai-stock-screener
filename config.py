@@ -110,6 +110,7 @@ TICKERS = [
     "MARINE.NS", # Marine Electricals (India)
     "APOLLO.NS",
     "CGPOWER.NS",
+    "NIFTY 50 (^NSEI)",
         # Metropolis Healthcare
 ]
 
