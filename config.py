@@ -21,7 +21,7 @@ TICKERS = [
     "RBLBANK.NS",     # RBL Bank
     "PNB.NS",         # Punjab National Bank
     "BANKBARODA.NS",  # Bank of Baroda
-    "CANBK.NS",       # Canara Bank
+    "CANBK.NS","IDFCFIRSTB.NS",       # Canara Bank
 
     # FMCG
     "HINDUNILVR.NS", "NESTLEIND.NS", "BRITANNIA.NS", "DABUR.NS",
@@ -92,7 +92,7 @@ TICKERS = [
     "NATIONALUM.NS",  # National Aluminium
 
     # Retail / New Age
-    "DMART.NS", "ZOMATO.NS", "NYKAA.NS", "IRCTC.NS",
+    "DMART.NS", "ETERNAL.NS", "NYKAA.NS", "IRCTC.NS","GROWW.NS",
 
     # ADD MORE ↓
     "PAYTM.NS",       # Paytm
@@ -111,6 +111,8 @@ TICKERS = [
     "APOLLO.NS",
     "CGPOWER.NS",
     "JIOFIN.NS",
+    "SUZLON.NS",
+    "IRB.NS" 
         # Metropolis Healthcare
 ]
 
