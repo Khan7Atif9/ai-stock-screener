@@ -21,3 +21,5 @@ Thumbs.db
 # Secrets
 .env
 secrets.toml
+# Keep fundamentals data in repo
+!data/fundamentals.json

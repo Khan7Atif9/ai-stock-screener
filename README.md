@@ -2,7 +2,7 @@
 
 > ML + Deep Learning + Smart Money Concepts for NSE/BSE Indian Stocks
 
-🔴 **Live Demo:** [ai-stock-screener.streamlit.app](https://ai-stock-screener.streamlit.app)
+🔴 **Live Demo:** [ai-stock-screener.streamlit.app](https://ai-stock-screener-6.streamlit.app/)
 
 ## 🧠 Features
 - Fundamental Analysis — 10-point scorecard

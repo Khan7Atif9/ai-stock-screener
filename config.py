@@ -8,7 +8,7 @@ TICKERS = [
     "PERSISTENT.NS", "COFORGE.NS", "MPHASIS.NS",
 
     # ADD YOUR NEW STOCKS HERE ↓
-    "LTIM.NS",        # LTI Mindtree
+    "LTM.NS",        # LTI Mindtree
     "OFSS.NS",        # Oracle Financial
     "KPITTECH.NS",    # KPIT Technologies
 
@@ -44,8 +44,8 @@ TICKERS = [
     "GLAND.NS",       # Gland Pharma
 
     # Auto
-    "MARUTI.NS", "TATAMOTORS.NS", "M&M.NS", "BAJAJ-AUTO.NS",
-    "HEROMOTOCO.NS", "EICHERMOT.NS",
+    "MARUTI.NS", "TMPV.NS", "M&M.NS", "BAJAJ-AUTO.NS",
+    "HEROMOTOCO.NS", "EICHERMOT.NS","TMCV",
 
     # ADD MORE AUTO ↓
     "TVSMOTOR.NS",    # TVS Motor
@@ -110,7 +110,7 @@ TICKERS = [
     "MARINE.NS", # Marine Electricals (India)
     "APOLLO.NS",
     "CGPOWER.NS",
-    "NIFTY 50 (^NSEI)",
+    "JIOFIN.NS",
         # Metropolis Healthcare
 ]
 
