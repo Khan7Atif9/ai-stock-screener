@@ -1,14 +1,52 @@
-streamlit==1.32.0
-yfinance==0.2.37
-pandas==2.2.1
-numpy==1.26.4
+#streamlit==1.32.0
+#yfinance==0.2.37
+#pandas==2.2.1
+#numpy==1.26.4
 scikit-learn>=1.4.1,<1.5.0
-xgboost==2.0.3
+#xgboost==2.0.3
+#tensorflow-cpu==2.15.0
+#plotly==5.19.0
+#requests==2.31.0
+#pyarrow==15.0.1
+#openpyxl==3.1.2
+#ta==0.11.0
+#lxml==5.1.0
+#beautifulsoup4==4.12.3
+
+# ── AI Stock Screener — requirements.txt ──────────────────────
+# Updated 2026-06-29
+#
+# KEY CHANGE: yfinance bumped from 0.2.37 → ≥ 0.2.54
+#   0.2.37 is broken for NSE tickers on Streamlit Cloud — it returns an
+#   empty body (JSON parse error "Expecting value: line 1 column 1")
+#   because Yahoo Finance changed its cookie/crumb flow.
+#   0.2.54+ handles the new auth flow automatically.
+#
+# tensorflow-cpu pinned to 2.15 to match keras 2.15 (avoid ABI mismatch).
+
+streamlit>=1.45.0
+
+# Data
+yfinance>=0.2.54
+pandas>=2.0.0
+numpy>=1.24.0
+
+# ML
+#scikit-learn>=1.4.0
+xgboost>=2.0.0
+
+# DL
 tensorflow-cpu==2.15.0
-plotly==5.19.0
-requests==2.31.0
-pyarrow==15.0.1
-openpyxl==3.1.2
-ta==0.11.0
-lxml==5.1.0
-beautifulsoup4==4.12.3
+keras==2.15.0
+
+# Technical indicators
+ta>=0.11.0
+
+# Visualisation
+plotly>=5.18.0
+
+# Misc
+requests>=2.31.0
+beautifulsoup4>=4.12.0
+lxml>=4.9.0
+openpyxl>=3.1.0
