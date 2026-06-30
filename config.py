@@ -112,7 +112,8 @@ TICKERS = [
     "CGPOWER.NS",
     "JIOFIN.NS",
     "SUZLON.NS",
-    "IRB.NS" 
+    "IRB.NS",
+    "^NSEI" 
         # Metropolis Healthcare
 ]
 
